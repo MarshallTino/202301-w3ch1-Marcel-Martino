@@ -2,11 +2,10 @@
   "name": "challenge-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "build:dev": "parcel/src/index.html",
+    "build:dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "prebuild": "rimraf dist/"
   },
